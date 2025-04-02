@@ -1,0 +1,10 @@
+*
+!.gitignore
+!ropz_crosshair.cfg
+!movement/*
+!1v1.cfg
+!autoexec.cfg
+!jump.cfg
+!nullbinds.cfg
+!prac.cfg
+!strafe.cfg
