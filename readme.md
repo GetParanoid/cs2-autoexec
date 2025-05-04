@@ -91,6 +91,14 @@ The `prac.cfg` file contains useful binds for practice servers:
 
 To use these practice configs, load into a practice server and execute the config by typing `exec prac` in the console.
 
+### listenserver.cfg
+
+The `listenserver.cfg` file is automatically executed when you return to the lobby after playing on a server. This file serves an important purpose in the configuration system:
+
+- It automatically resets all keybinds to your `autoexec.cfg` settings by executing `autoexec.cfg`
+- It ensures that any specialized binds from `prac.cfg` or `demo.cfg` are automatically unbound when you exit a practice server or demo
+- It also re-executes the movement setup to maintain your movement binds
+
 ## Customization
 
 Feel free to modify any of these files to better suit your needs. The configurations are well-commented to help you understand what each setting does.
