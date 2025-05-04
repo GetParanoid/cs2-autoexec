@@ -48,7 +48,18 @@ bind mwheeldown j // de-subticked jump
 
 The binds are designed to work with CS2's tick system to provide more reliable execution of movement techniques compared to standard binds.
 
-## Practice Configs
+## Configs
+
+The `demo.cfg` file contains useful binds for reviewing demos:
+
+| Key | Function |
+|-----|----------|
+| ↓ (Down Arrow) | Toggle X-ray (spec_show_xray) on/off |
+| → (Right Arrow) | Fast forward (10x speed while held) |
+| ← (Left Arrow) | Jump back 960 ticks (approximately 15 seconds) |
+| ↑ (Up Arrow) | Pause/unpause demo |
+
+To use these demo binds, load into a demo and execute the config by typing `exec demo` in the console.
 
 ### prac.cfg
 
@@ -59,6 +70,24 @@ This configuration file contains specialized binds and settings for practice ser
 - Binds for spawning and manipulating bots
 - Binds for rethrowing grenades
 - Noclip and other admin commands
+
+
+The `prac.cfg` file contains useful binds for practice servers:
+
+| Key | Function |
+|-----|----------|
+| NUMPAD ENTER | Rethrows last grenade  |
+| NUMPAD0 | Rethrow HE  |
+| NUMPAD1 | Rethrow Flash  |
+| NUMPAD2 | Rethrow Smoke |
+| NUMPAD3 | Rethrow Molotov/Incendiary |
+| NUMPAD4 | Spawns a standing bot at your current location |
+| NUMPAD5 | Spawns a crouching bot at your current location |
+| NUMPAD6 | Spawns a bot beneath you for boosting |
+| NUMPAD 7 | Teleport to the closest spawn point |
+| NUMPAD 8 | Teleport to the farthest spawn point |
+| NUMPAD PLUS | Create a crouching bot beneath you for boosting  |
+| NUMPAD MULTIPLY | Remove all bots from the server |
 
 To use these practice configs, load into a practice server and execute the config by typing `exec prac` in the console.
 
